@@ -21,6 +21,8 @@ class CpuCollection
     findCpuById(_id)
     {
         let cpu = {};
+        cpu = this.data.find(element=> element.id == _id);
+    
 
         // implémenter ici la recherche d'un CPU par son identifiant
 
